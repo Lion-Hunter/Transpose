@@ -14,7 +14,6 @@ public class Transposer {
             bufR = new BufferedReader(reader);
         } else buf = new BufferedReader(new FileReader(input));
 
-
         String line = buf.readLine();
 
         ArrayList<String> transposedStrings = new ArrayList<String>(); // array, which stores transposed strings
