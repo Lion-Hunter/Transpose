@@ -48,6 +48,5 @@ public class Transposer {
             } else wr.write(string);
             wr.close();
         } else for (String string: transposedStrings) System.out.println(string); // write final strings into console
-
     }
 }
